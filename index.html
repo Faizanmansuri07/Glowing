@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glowing</title>
+            <!-- -----style link ------ -->
+             <link rel="stylesheet" href="style.css">
+             <!-- -------google fonts------- -->
+             <link rel="preconnect" href="https://fonts.googleapis.com">
+             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+             <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+             <!-- -------favicon------- -->
+            <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+            <!-- ------font awesom---- -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <!-- ----------animation------ -->
+            <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        </head>            
+<body  id="home" >
+       
+
+<!-- header-top -->
+    <div class="container">
+                <div class="navbar active">
+                        <div class="image">
+                                <img src="images/logo.png" alt="">
+                        </div>
+                        <ul class="items">
+                                <div class="other">
+                                    <img src="images/logo.png" alt="">
+                                     <p id="cancel" onclick="showOptions('close');">&times</p>
+                                </div>
+                                     <a href="#home" class="mes" ><li>Home</li></a>
+                                    <a href="#collection" class="mes" ><li>Collection</li></a>
+                                    <a href="#shop" class="mes"  ><li>Shop</li></a>
+                                    <a href="#offer" class="mes"    ><li>Offer</li></a>
+                                    <a href="#blog" class="mes"    ><li>Blog</li></a>
+                        </ul>
+                        <div class="items2">
+                          <a href="#home"><li>Home</li></a>
+                          <a href="#collection"><li>Collection</li></a>
+                          <a href="#shop"><li>Shop</li></a>
+                          <a href="#offer"><li>Offer</li></a>
+                          <a href="#blog"><li>Blog</li></a>
+                        </div>
+                        <div class="icons">
+                                <ion-icon name="person-outline" class="use1"></ion-icon>
+                                <ion-icon name="star-outline" class="use2"></ion-icon>
+                                <ion-icon name="bag-handle-outline" class="use3"></ion-icon>
+                                <ion-icon name="menu-outline" class="use4" onclick="showOptions('open');"></ion-icon>
+                        </div>
+                </div>
+    </div>
+
+    <!-- ------------------
+    hero section
+    ------------------ -->
+
+    <article>
+
+        <!-- 
+          - #HERO
+        -->
+  
+        <section class="section hero" aria-label="hero" data-aos="fade-down">
+          <div class="container">
+  
+            <ul class="has-scrollbar">
+  
+              <li class="scrollbar-item">
+                <div class="hero-card has-bg-image" style="background-image: url('images/hero-banner-1.jpg')">
+  
+                  <div class="card-content">
+  
+                    <h1 class="h1 hero-title">
+                      Reveal The <br>
+                      Beauty of Skin
+                    </h1>
+  
+                    <p class="hero-text">
+                      Made using clean, non-toxic ingredients, our products <br>are designed for everyone.
+                    </p>
+  
+                    <p class="price">Starting at $7.99</p>
+  
+                    <a href="#" class="btn btn-primary">Shop Now</a>
+  
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li class="scrollbar-item">
+                <div class="hero-card has-bg-image" style="background-image: url('images/hero-banner-2.jpg')">
+  
+                  <div class="card-content">
+  
+                    <h1 class="h1 hero-title">
+                      Reveal The <br>
+                      Beauty of Skin
+                    </h1>
+  
+                    <p class="hero-text">
+                      Made using clean, non-toxic ingredients, our products<br> are designed for everyone.
+                    </p>
+  
+                    <p class="price">Starting at $7.99</p>
+  
+                    <a href="#" class="btn btn-primary">Shop Now</a>
+  
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li class="scrollbar-item">
+                <div class="hero-card has-bg-image" style="background-image: url('images/hero-banner-3.jpg')">
+  
+                  <div class="card-content">
+  
+                    <h1 class="h1 hero-title">
+                      Reveal The <br>
+                      Beauty of Skin
+                    </h1>
+  
+                    <p class="hero-text">
+                      Made using clean, non-toxic ingredients, our products <br>are designed for everyone.
+                    </p>
+  
+                    <p class="price">Starting at $7.99</p>
+  
+                    <a href="#" class="btn btn-primary">Shop Now</a>
+  
+                  </div>
+  
+                </div>
+              </li>
+  
+            </ul>
+  
+          </div>
+        </section>
+
+        <section class="collection" id="collection">
+               
+                <div class="img " style="background-image: url(images/collection-1.jpg);" data-aos="fade-up">
+                        <p class="title">
+                                Summer Collection
+                        </p>
+                        <p class="start">
+                                Starting at $17.99
+                        </p>
+                        <div class="shop">
+                                <p>Shop Now</p>
+                                
+                                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                    
+                              </div>
+                </div>
+    
+                <div class="img" style="background-image: url(images/collection-2.jpg);" data-aos="fade-up">
+                        <p class="title">
+                             What's New
+                        </p>
+                        <p class="start">
+                               Get the glow
+                        </p>
+                        <p class="shop">
+                             Discover Now
+                            
+                              <ion-icon name="arrow-forward-outline"></ion-icon>
+                             
+                        </p>
+                </div>
+
+                <div class="img" style="background-image: url(images/collection-3.jpg);" data-aos="fade-up">
+                        <p class="title">
+                                Summer Collection
+                        </p>
+                        <p class="start">
+                                Starting at $17.99
+                        </p>
+                        <p class="shop">
+                                Shop Now
+                                <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </p>
+                </div>
+        </section>
+
+
+        <!-- ------------------
+        shop section
+        ------------------ -->
+
+        <section class="shops" id="shop"  data-aos="fade">
+           <div class="main">
+                  <p class="headers">
+                          Our Bestseller
+                  </p>
+                  <button>
+                    Shop All products
+                      <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </button>
+             </div>      
+
+             <div class="product-container has-scrollbar">
+                      <div class="products">
+                              <div class="product-img">
+                                
+                                    <img src="images/product-02.jpg" class="images" alt="">
+                              </div>
+                              <div class="product-disc">
+                                      <p class="child-1"><span>$33.00</span> $29.00</p>
+                                      <p class="child-2">Facial cleaner</p>
+                                      <div class="stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <p id="review">5000 review</p>
+                                      </div>    
+                              </div>
+                      </div>
+                  
+                      <div class="products">
+                        <div class="product-img">
+                          
+                              <img src="images/product-01.jpg" class="images" alt="">
+                        </div>
+                        <div class="product-disc">
+                                <p class="child-1"><span>$33.00</span> $29.00</p>
+                                <p class="child-2">Bio-shroom Rejuvenating Serum
+                                </p>
+                                
+                                <div class="stars">
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <p id="review">5000 review</p>
+                                </div>    
+                        </div>
+                </div>
+            
+                <div class="products">
+                  <div class="product-img">
+                    
+                        <img src="images/product-03.jpg" class="images" alt="">
+                  </div>
+                  <div class="product-disc">
+                          <p class="child-1"><span>$33.00</span> $29.00</p>
+                          <p class="child-2">Coffee Bean Caffeine Eye Cream
+                          </p>
+                          <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p id="review">5000 review</p>
+                          </div>    
+                         
+                  </div>
+          </div>
+      
+          <div class="products">
+            <div class="product-img">
+              
+                  <img src="images/product-04.jpg" class="images" alt="">
+            </div>
+            <div class="product-disc">
+                    <p class="child-1"><span>$33.00</span> $29.00</p>
+                    <p class="child-2">Bio-shroom Rejuvenating Serum</p>
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <p id="review">5000 review</p>
+                    </div>    
+                 
+            </div>
+    </div>
+
+    <div class="products">
+      <div class="product-img">
+        
+            <img src="images/product-05.jpg" class="images" alt="">
+      </div>
+      <div class="product-disc">
+              <p class="child-1"><span>$33.00</span> $29.00</p>
+              <p class="child-2">Coffee Bean Caffeine Eye Cream</p>
+            
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <p id="review">5000 review</p>
+              </div>    
+            
+      </div>
+</div>
+
+<div class="products">
+  <div class="product-img">
+    
+        <img src="images/product-06.jpg" class="images" alt="">
+  </div>
+  <div class="product-disc">
+          <p class="child-1"><span>$33.00</span> $29.00</p>
+          <p class="child-2">Facial cleaner</p>
+          
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <p id="review">5000 review</p>
+          </div>    
+         
+  </div>
+</div>
+
+<div class="products">
+  <div class="product-img">
+    
+        <img src="images/product-07.jpg" class="images" alt="">
+  </div>
+  <div class="product-disc">
+          <p class="child-1"><span>$33.00</span> $29.00</p>
+          <p class="child-2">Bio-shroom Rejuvenating Serum</p>
+
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <p id="review">5000 review</p>
+          </div>    
+        
+  </div>
+</div>
+
+
+     </div>
+   </section>
+
+        <section class="offer" id="offer" data-aos="fade">
+                <div class="main offer-main">
+                    <p class="headers">
+                            Under $25
+                    </p>
+                    <button>
+                      Shop All products
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                    </button>
+                </div>
+
+                <div class="product-container">
+                  <div class="has-scrollbar">
+                  <div class="products">
+                    <div class="product-img">
+                      
+                          <img src="images/product-08.jpg" class="images" alt="">
+                    </div>
+                    <div class="product-disc">
+                            <p class="child-1"><span>$33.00</span> $29.00</p>
+                            <p class="child-2">Facial cleaner</p>
+                            <div class="stars">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <p id="review">5000 review</p>
+                            </div>    
+                    </div>
+            </div>
+        
+            <div class="products">
+              <div class="product-img">
+                
+                    <img src="images/product-09.jpg" class="images" alt="">
+              </div>
+              <div class="product-disc">
+                      <p class="child-1"><span>$33.00</span> $29.00</p>
+                      <p class="child-2">Facial cleaner</p>
+                      <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <p id="review">5000 review</p>
+                      </div>    
+              </div>
+      </div>
+  
+      <div class="products">
+        <div class="product-img">
+          
+              <img src="images/product-10.jpg" class="images" alt="">
+        </div>
+        <div class="product-disc">
+                <p class="child-1"><span>$33.00</span> $29.00</p>
+                <p class="child-2">Facial cleaner</p>
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <p id="review">5000 review</p>
+                </div>    
+        </div>
+</div>
+
+<div class="products">
+  <div class="product-img">
+    
+        <img src="images/product-11.jpg" class="images" alt="">
+  </div>
+  <div class="product-disc">
+          <p class="child-1"><span>$33.00</span> $29.00</p>
+          <p class="child-2">Facial cleaner</p>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <p id="review">5000 review</p>
+          </div>    
+  </div>
+</div>
+
+<div class="products">
+  <div class="product-img">
+    
+        <img src="images/product-15.jpg" class="images" alt="">
+  </div>
+  <div class="product-disc">
+          <p class="child-1"><span>$33.00</span> $29.00</p>
+          <p class="child-2">Facial cleaner</p>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <p id="review">5000 review</p>
+          </div>    
+  </div>
+</div>
+
+<div class="products">
+  <div class="product-img">
+    
+        <img src="images/product-16.jpg" class="images" alt="">
+  </div>
+  <div class="product-disc">
+          <p class="child-1"><span>$33.00</span> $29.00</p>
+          <p class="child-2">Facial cleaner</p>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <p id="review">5000 review</p>
+          </div>    
+  </div>
+</div>
+
+<div class="products">
+  <div class="product-img">
+    
+        <img src="images/product-17.jpg" class="images" alt="">
+  </div>
+  <div class="product-disc">
+          <p class="child-1"><span>$33.00</span> $29.00</p>
+          <p class="child-2">Facial cleaner</p>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <p id="review">5000 review</p>
+          </div>    
+  </div>
+</div>
+    </div>
+  </div>
+ </section>
+
+<section class="new">
+  <div class="new-main">
+          <div class="new-sec-img img-2" style="background-image: url(images/banner-1.jpg);"  data-aos="fade-up">
+                <p class="new-header">
+                       NEW COLLECTION
+                </p>
+                <p class="new-discription">
+                      Discover Our Autumm<br>
+                      Skincare
+                </p>
+                <button>
+                  Explore More
+                </button>
+          </div>
+         
+          <div class="new-sec-img img-1" style="background-image: url(images/banner-2.jpg);"  data-aos="fade-up">
+            <p class="new-header">
+                   NEW COLLECTION
+            </p>
+            <p class="new-discription">
+                  Discover Our Autumm<br>
+                  Skincare
+            </p>
+            <button>
+              Explore More
+            </button>
+          </div>
+    </div>
+</section>
+
+<section class="faq"  data-aos="fade-up">
+          <p class="faq-header">
+                Why Shop With Glowing ?
+          </p>
+          <div class="faqs">
+          <div class="faq-box">
+               <img src="images/feature-1.jpg" alt="">
+               <p id="info">Guaranted PURE</p>
+               <p id="faq-disc">All Grace formulations adhere to strict purity<br> standards and will never contain harsh<br> or toxic ingredients</p>
+          </div>
+
+          <div class="faq-box">
+            <img src="images/feature-2.jpg" alt="">
+            <p id="info">Guaranted PURE</p>
+            <p id="faq-disc">All Grace formulations adhere to strict purity<br> standards and will never contain harsh<br> or toxic ingredients</p>
+       </div>
+
+       <div class="faq-box">
+        <img src="images/feature-3.jpg" alt="">
+        <p id="info">Guaranted PURE</p>
+        <p id="faq-disc">All Grace formulations adhere to strict purity<br> standards and will never contain harsh<br> or toxic ingredients</p>
+   </div>
+        </div>
+</section>
+
+    <section class="more" id="blog" data-aos="fade-up">
+                  <p class="headers more-header">
+                        More To Discover
+                  </p>
+                  <div class="more-main">
+                    <div class="more-box">
+                              <img src="images/blog-1.jpg" alt="">
+                              <p id="more-name">Find a Store</p>
+                              <div class="more-link">
+                                    <p id="more-link">Our Store</p>
+                                    <span>
+                                      <ion-icon name="arrow-forward-outline"></ion-icon>
+                                    </span>
+                                  </div>
+                    </div>
+                  
+
+                 
+                    <div class="more-box">
+                              <img src="images/blog-1.jpg" alt="">
+                              <p id="more-name">Find Our blog</p>
+                              <div class="more-link">
+                                <p id="more-link">Our Store</p>
+                                <span>
+                                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                                </span>
+                              </div>
+                    </div>
+                 
+
+               
+                    <div class="more-box">
+                              <img src="images/blog-1.jpg" alt="">
+                              <p id="more-name">Our Story</p>
+                              <div class="more-link">
+                                <p id="more-link">Our Store</p>
+                                <span>
+                                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                                </span>
+                              </div>
+                    </div>
+                  </div>      
+    </section>
+
+    <footer>
+                <section class="footer-main" data-aos="fade">
+                  <div class="footer">
+                           <div class="company box" data-aos="fade-up">
+                                  <p id="footer-header">Company</p>
+                                  <span>Find a location nearest you. See <a href="#">Our Stores</a></span>
+                                  <p id="contact">+391 (0)35 2568 4593</p>
+                                  <p id="email">hello@domain.com</p>
+                           </div> 
+                           <div class="useful-links box" data-aos="fade-up">
+                              <p id="footer-header">Useful Links</p>
+                              <p>New Products</p>
+                              <p>Best Sellers</p>
+                              <p>Bundle & Save</p>
+                              <p>Online Gift Card</p>
+                           </div>
+
+                           <div class="information box" data-aos="fade-up">
+                                    <p id="footer-header">Information</p>
+                                    <p>Start a Return</p>
+                                    <p>Contact Us</p>
+                                    <p>Shipping FAQ</p>
+                                    <p>Terms & Conditions</p>
+                                    <p>Privacy Policy</p>
+                           </div>
+
+                           <div class="good-Emai box" data-aos="fade-up">
+                                <p id="footer-header">Good Email</p>
+                                  <p id="foot-disc">Enter your email below to be the first to know about <br>new collections and product launches.</p>
+
+                                  <div class="email-subscription" data-aos="ease">
+                                    <input type="email" placeholder="Enter Your email address">
+                                    <button>Subscribe</button>
+                                  </div>
+                             </div>
+                          </div>  
+                          <div class="footer-bottom">
+                              <div class="copyright">
+                                <i class="fa-regular fa-copyright"></i>
+                                <span>2024 CodeWithFaizan</span>
+                                <div class="fotter-icons">
+                                     <i class="fa-brands fa-instagram"></i>
+                                     <i class="fa-brands fa-twitter"></i>
+                                     <i class="fa-brands fa-facebook"></i>
+                                </div>
+                              </div>
+                                      <div class="photo">
+                                              <img src="images/logo.png" alt="">
+                                      </div>
+                                      <div class="payment">
+                                            <img src="images/pay.png" alt="">
+                                      </div>
+                          </div>      
+                      </div>      
+                </section>
+             
+    </footer>
+
+</article>  
+<!-- -------ion icon------- -->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<!-- -------script------- -->
+        <script src="script.js"></script>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+            offset : 300,
+            duration : 500
+          });
+          </script>
+</body>
+
+
+</html>
