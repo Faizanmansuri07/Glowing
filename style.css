@@ -6,12 +6,18 @@
     list-style: none;
     text-decoration: none;
 }
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
 body{
     background-color: hsl(0,0%,100%);
-    overflow-x: hidden;
+    overflow-x:  hidden;
 }
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 /* ---------
 reused style
@@ -484,13 +490,14 @@ more to discover
     align-items: center;
     justify-content: center;
     gap: 30px;
+    overflow-x: hidden;
 }
 .more-header{
     margin-top: 50px;
     text-align: center;
 }
 .more-box img{
-    width: 380px;
+    width: 300px;
 }
 .more-box{
     display: flex;
@@ -964,6 +971,7 @@ for smaller phone
     .more-main{
         display: flex;
         flex-direction: column;
+        padding: 30px 20px;
     }
     .more-main img{
        min-width: 100%;
